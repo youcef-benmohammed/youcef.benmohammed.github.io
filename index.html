@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Welcome | Youcef's Portfolio</title>
+    <title>Youcef Ben Mohammed | Bioinformatician Portfolio</title>
     <meta charset="utf-8" />
     <meta
       name="viewport"
@@ -15,90 +15,93 @@
   <body class="is-preload">
     <!-- Wrapper -->
     <div id="wrapper" class="fade-in">
-      <!-- Intro -->
-      <div id="intro">
-        <h1>Youcef's<br />Portfolio</h1>
-        <p>
-          Hello, welcome to my portfolio where I showcase my projects and skills
-          in bioinformatics and systems biology.
-        </p>
-        <ul class="actions">
-          <li>
-            <a
-              href="#header"
-              class="button icon solid solo fa-arrow-down scrolly"
-              >Continue</a
-            >
-          </li>
-        </ul>
-      </div>
+      <!-- Intro Section -->
+      <section id="intro" class="main">
+        <div class="content">
+          <h1>Youcef Ben Mohammed</h1>
+          <p>
+            Welcome to my portfolio showcasing my projects and expertise in
+            bioinformatics and systems biology.
+          </p>
+          <ul class="actions">
+            <li>
+              <a
+                href="#header"
+                class="button icon solid solo fa-arrow-down scrolly"
+                >Explore</a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
 
       <!-- Header -->
       <header id="header">
-        <a href="index.html" class="logo">Portfolio</a>
+        <div class="logo">
+          <a href="index.html">Portfolio</a>
+        </div>
+        <nav id="nav">
+          <ul class="links">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <ul class="icons">
+            <li>
+              <a
+                href="https://www.linkedin.com/in/youcef-ben-mohammed/"
+                class="icon brands fa-linkedin"
+                ><span class="label">LinkedIn</span></a
+              >
+            </li>
+            <li>
+              <a
+                href="https://github.com/youcef-benmohammed"
+                class="icon brands fa-github"
+                ><span class="label">GitHub</span></a
+              >
+            </li>
+          </ul>
+        </nav>
       </header>
 
-      <!-- Nav -->
-      <nav id="nav">
-        <ul class="links">
-          <li class="active"><a href="index.html">Home</a></li>
-        </ul>
-        <ul class="icons">
-          <li>
-            <a
-              href="https://www.linkedin.com/in/youcef-ben-mohammed/"
-              class="icon brands fa-linkedin"
-              ><span class="label">LinkedIn</span></a
-            >
-          </li>
-          <li>
-            <a
-              href="https://github.com/youcef-benmohammed"
-              class="icon brands fa-github"
-              ><span class="label">GitHub</span></a
-            >
-          </li>
-        </ul>
-      </nav>
-
-      <!-- Main -->
-      <div id="main">
-        <!-- Featured Post -->
-        <article class="post featured">
-          <header class="major">
-            <h2><a href="#">Hi, I'm Youcef Ben Mohammed</a></h2>
+      <!-- Main Section -->
+      <main id="main">
+        <!-- About Me -->
+        <section id="about" class="major">
+          <header>
+            <h2>About Me</h2>
+          </header>
+          <div class="content">
             <p>
               I am a dedicated Master's student specializing in Bioinformatics
               and Systems Biology. My passion lies in applying advanced
               computational techniques to tackle complex biological questions.
             </p>
-          </header>
-          <a href="#" class="image main"
-            ><img src="images/pic00.jpeg" alt="Youcef Ben Mohammed"
-          /></a>
-          <ul class="actions special">
-            <li><a href="docs/CV.pdf" class="button large">Check My CV</a></li>
-          </ul>
-        </article>
+            <a href="docs/CV.pdf" class="button large">Download CV</a>
+          </div>
+        </section>
 
-        <!-- Projects -->
-        <section class="posts">
+        <!-- Featured Project -->
+        <section id="projects" class="posts">
+          <header class="major">
+            <h2>Featured Projects</h2>
+          </header>
+
+          <!-- Project 1 -->
           <article>
             <header>
-              <h2>
-                <a href="#"
-                  >Analysis of the Impact of 3D Folding of DNA on Gene
-                  Expression</a
-                >
-              </h2>
+              <h3>
+                <a href="#">Analysis of 3D DNA Folding on Gene Expression</a>
+              </h3>
             </header>
             <a href="#" class="image fit"
               ><img src="images/chromatine.png" alt="3D DNA Folding"
             /></a>
             <p>
-              This project, realized with Dr. Olivier Cuvier's team, explored
-              the relation between 3D organization and transcriptional
-              regulation in C. elegans.
+              This project explored the relationship between 3D DNA organization
+              and transcriptional regulation in C. elegans, with a focus on
+              genome-wide physical contact maps of 3D-disturbed mutants.
             </p>
             <ul class="actions special">
               <li>
@@ -106,9 +109,11 @@
               </li>
             </ul>
           </article>
+
+          <!-- Project 2 -->
           <article>
             <header>
-              <h2><a href="#">Italian Wines Classification</a></h2>
+              <h3><a href="#">Italian Wines Classification</a></h3>
             </header>
             <a href="#" class="image fit"
               ><img
@@ -116,9 +121,10 @@
                 alt="Italian Wines Classification"
             /></a>
             <p>
-              This project involves the comparative analysis of classification
-              models for predicting Italian wine grape varieties using R and
-              KNIME.
+              This project involves comparative analysis of classification
+              models for predicting Italian wine grape varieties using
+              exploratory data analysis (EDA) in R and machine learning models
+              in KNIME.
             </p>
             <ul class="actions special">
               <li>
@@ -128,9 +134,11 @@
               </li>
             </ul>
           </article>
+
+          <!-- Project 3 -->
           <article>
             <header>
-              <h2><a href="#">Bulk RNA-seq Deconvolution Pipeline</a></h2>
+              <h3><a href="#">Bulk RNA-seq Deconvolution Pipeline</a></h3>
             </header>
             <a href="#" class="image fit"
               ><img
@@ -138,9 +146,9 @@
                 alt="RNA-seq Deconvolution Pipeline"
             /></a>
             <p>
-              This project, completed during a six-month M2 internship at INSERM
-              Grand Ouest, developed a pipeline for estimating cell-type
-              proportions in follicular lymphoma patients.
+              Developed during a six-month M2 internship at INSERM Grand Ouest,
+              this pipeline estimates cell-type proportions in bulk RNA-seq data
+              from patients with follicular lymphoma.
             </p>
             <ul class="actions special">
               <li>
@@ -152,67 +160,79 @@
           </article>
         </section>
 
-        <!-- Footer -->
-        <footer id="footer">
-          <section class="split contact">
-            <section class="alt">
-              <h3>Address</h3>
-              <p>
+        <!-- Contact -->
+        <section id="contact" class="split">
+          <div class="contact-info">
+            <h3>Contact Me</h3>
+            <p>Feel free to reach out via the following methods:</p>
+            <ul>
+              <li>
+                <strong>Address:</strong>
                 <a href="https://maps.app.goo.gl/J8LgUnXYmGomD34p7"
                   >20 Rue Saint Hélier, Rennes 35000 - France</a
                 >
-              </p>
-            </section>
-            <section>
-              <h3>Phone</h3>
-              <p><a href="tel:+33698036393">+33 698-036-393</a></p>
-            </section>
-            <section>
-              <h3>Email</h3>
-              <p>
+              </li>
+              <li>
+                <strong>Phone:</strong>
+                <a href="tel:+33698036393">+33 698-036-393</a>
+              </li>
+              <li>
+                <strong>Email:</strong>
                 <a href="mailto:youcef.benmohammed@hotmail.com"
                   >youcef.benmohammed@hotmail.com</a
                 >
-              </p>
-            </section>
-            <section>
-              <h3>Social</h3>
-              <ul class="icons alt">
+              </li>
+            </ul>
+            <div class="social-icons">
+              <ul class="icons">
                 <li>
-                  <a href="#" class="icon brands alt fa-twitter"
+                  <a
+                    href="https://twitter.com/yourprofile"
+                    class="icon brands fa-twitter"
                     ><span class="label">Twitter</span></a
                   >
                 </li>
                 <li>
-                  <a href="#" class="icon brands alt fa-facebook-f"
+                  <a
+                    href="https://facebook.com/yourprofile"
+                    class="icon brands fa-facebook-f"
                     ><span class="label">Facebook</span></a
                   >
                 </li>
                 <li>
-                  <a href="#" class="icon brands alt fa-instagram"
+                  <a
+                    href="https://instagram.com/yourprofile"
+                    class="icon brands fa-instagram"
                     ><span class="label">Instagram</span></a
                   >
                 </li>
-                <li>
-                  <a
-                    href="https://github.com/youcef-benmohammed"
-                    class="icon brands alt fa-github"
-                    ><span class="label">GitHub</span></a
-                  >
-                </li>
               </ul>
-            </section>
-          </section>
-        </footer>
+            </div>
+          </div>
+        </section>
+      </main>
 
-        <!-- Copyright -->
-        <div id="copyright">
-          <ul>
-            <li>&copy; Youcef Ben Mohammed</li>
-            <li>Design: <a href="https://html5up.net">HTML5 UP </a></li>
-          </ul>
+      <!-- Footer -->
+      <footer id="footer">
+        <div class="content">
+          <section>
+            <h3>About This Site</h3>
+            <p>
+              &copy; Youcef Ben Mohammed | Design by
+              <a href="https://html5up.net">HTML5 UP</a>
+            </p>
+          </section>
         </div>
-      </div>
+      </footer>
     </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
   </body>
 </html>
