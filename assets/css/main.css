@@ -4806,3 +4806,14 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
     visibility: visible;
   }
 }
+
+#footer .content {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#footer {
+    padding: 2em 0;
+    background: #f8f8f8; /* Adjust background color as needed */
+}
+
